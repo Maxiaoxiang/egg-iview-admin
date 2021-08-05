@@ -42,7 +42,7 @@ module.exports = {
     proxy: {
       '/api': {
         // target: 'https://api.maxiaoxiang.com/', // 后台服务器的ip地址
-        target: 'http://127.0.0.1:8360/',
+        target: 'http://127.0.0.1:7001/',
         pathRewrite: { '^/api': '' },
         changeOrigin: true,
         secure: false
